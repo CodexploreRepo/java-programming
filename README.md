@@ -48,8 +48,16 @@
 -  8 Primitive Types: boolean, byte, char, short, int, long, float & double
 -  Java use concept of `Wrapper Class` for 8 primitive types, so we can convert `byte` to object `Byte` => `Byte.MIN_VALUE`
 ![Screenshot 2020-11-28 at 3 55 28 PM](https://user-images.githubusercontent.com/64508435/100496833-59696e00-3192-11eb-8297-2e409aabee93.png)
+```Java
+long myLongValue = 21413124L;
+        
+float myFloatValue = 5.25f;
+float myNewFloat = (float)5.25; //By default, 5.25 will be assign as Double > need to cast (5.25) from Double > Float
 
-### Integer:
+double myDoubleValue = 5.2521d;
+
+```
+### MAX-MIN Value:
 ```Java
 Integer.MIN_VALUE
 Integer.MAX_VALUE
