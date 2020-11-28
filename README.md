@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Data Types](#data-types)
   - [Primitive Types](#primitive-types)
+  - [Type Casting](#type-casting)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
 - [Bitwise Operations](#bitwise-operations)
@@ -52,6 +53,10 @@
 ```Java
 Integer.MIN_VALUE
 Integer.MAX_VALUE
+```
+## Type Casting
+```Java 
+byte myNewByteValue = (byte)(Byte.MIN_VALUE/2);
 ```
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
