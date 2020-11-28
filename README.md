@@ -1,7 +1,7 @@
 # Java CheatSheet
 
 ## Table of Contents
-- [Java Basics](#java-basics)
+- [Data Types](#java-basics)
   - [Primitive Types](#primitive-types)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
@@ -42,10 +42,12 @@
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
 
-# Java Basics
+#  Data Types
 ## Primitive Types
 -  8 Primitive Types: boolean, byte, char, short, int, long, float & double
 -  Java use concept of `Wrapper Class` for 8 primitive types, so we can convert `byte` to object `Byte` => `Byte.MIN_VALUE`
+![Screenshot 2020-11-28 at 3 55 28 PM](https://user-images.githubusercontent.com/64508435/100496833-59696e00-3192-11eb-8297-2e409aabee93.png)
+
 ### Integer:
 ```Java
 Integer.MIN_VALUE
