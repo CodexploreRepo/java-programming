@@ -1,7 +1,7 @@
 # Java CheatSheet
 
 ## Table of Contents
-- [Data Types](#java-basics)
+- [Data Types](#data-types)
   - [Primitive Types](#primitive-types)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
