@@ -45,8 +45,8 @@
 # Java Basics
 ## Primitive Types
 -  8 Primitive Types: boolean, byte, char, short, int, long, float & double
--  Java use concept of `Wrapper Class` for 8 primitive types
-### Integer: 
+-  Java use concept of `Wrapper Class` for 8 primitive types, so we can convert `byte` to object `Byte` => `Byte.MIN_VALUE`
+### Integer:
 ```Java
 Integer.MIN_VALUE
 Integer.MAX_VALUE
