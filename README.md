@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Data Types](#data-types)
   - [Primitive Types](#primitive-types)
+  - [String Data Type](#string-data-type)
   - [Type Casting](#type-casting)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
@@ -57,11 +58,20 @@ float myNewFloat = (float)5.25; //By default, 5.25 will be assign as Double > ne
 double myDoubleValue = 5.2521d;
 
 ```
+### Char 
+- contain single character (Unicode ~ 16 Bit)
+```Java
+   char myChar = 'D';
+   char myUnicodeChar = '\u0044'; //D
+```
 ### MAX-MIN Value:
 ```Java
-Integer.MIN_VALUE
+Byte.MIN_VALUE
 Integer.MAX_VALUE
 ```
+## String Data Type
+- contain a sequence of characters `String myString = "This is my String";`
+
 ## Type Casting
 ```Java 
 byte myNewByteValue = (byte)(Byte.MIN_VALUE/2);
