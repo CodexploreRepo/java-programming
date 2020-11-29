@@ -94,7 +94,7 @@ String name = scanner.nextLine();
 //To close the scanner after usesage
 scanner.close();
 ```
-- To check if the input received is Integer: `scanner.hasNextInt();`
+- `scanner.hasNextInt();` To check if the input received is Integer
 
 ```Java
 	Scanner scanner = new Scanner(System.in);
