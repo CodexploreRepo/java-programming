@@ -5,6 +5,8 @@
   - [Primitive Types](#primitive-types)
   - [String Data Type](#string-data-type)
   - [Type Casting](#type-casting)
+- [Method](#method)
+  - [Method Overloading](#method-overloading)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
 - [Bitwise Operations](#bitwise-operations)
@@ -78,6 +80,29 @@ byte myNewByteValue = (byte)(Byte.MIN_VALUE/2);
 ```
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
+
+# Method
+## Method Overloading
+
+```Java
+    //Main Function
+    public static void main(String[] args) {
+	    //int newScore = calculateScore("QN", 500);
+        int newScore = calculateScore(70);
+	    System.out.println("New Score is " + newScore);
+    }
+    //Default calculateScore Method
+    public static int calculateScore(String playerName, int score ){
+        System.out.println("Player " + playerName + " scored " + score + " points");
+        return score*100;
+    }
+    //Method Overloading 
+    public static int calculateScore(int score ){
+        System.out.println("Unnamed player " + " scored " + score + " points");
+        return score*100;
+    }
+```
+
 ## Scope of Variables
 
 | **Local**| **Instance** | **Class/Static**  |
