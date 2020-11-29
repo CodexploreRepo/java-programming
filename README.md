@@ -83,26 +83,11 @@ byte myNewByteValue = (byte)(Byte.MIN_VALUE/2);
 
 # Method
 ## Method Overloading
+- Improve code readability & re-usability
+- Overloaded methods provide flexibility to call similar method with different data types
+![Screenshot 2020-11-29 at 11 13 01 AM](https://user-images.githubusercontent.com/64508435/100530992-da2c7680-3233-11eb-99e5-9288eb73b140.png)
 
-```Java
-    //Main Function
-    public static void main(String[] args) {
-	    //int newScore = calculateScore("QN", 500);
-        int newScore = calculateScore(70);
-	    System.out.println("New Score is " + newScore);
-    }
-    //Default calculateScore Method
-    public static int calculateScore(String playerName, int score ){
-        System.out.println("Player " + playerName + " scored " + score + " points");
-        return score*100;
-    }
-    //Method Overloading 
-    public static int calculateScore(int score ){
-        System.out.println("Unnamed player " + " scored " + score + " points");
-        return score*100;
-    }
-```
-
+<sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
 ## Scope of Variables
 
 | **Local**| **Instance** | **Class/Static**  |
