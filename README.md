@@ -6,6 +6,7 @@
   - [String Data Type](#string-data-type)
   - [Type Casting](#type-casting)
 - [Method](#method)
+  - [User Input](#user-input)
   - [Method Overloading](#method-overloading)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
@@ -82,6 +83,40 @@ byte myNewByteValue = (byte)(Byte.MIN_VALUE/2);
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
 
 # Method
+## User Input
+```
+import java.util.Scanner;
+//Create an instance of Scanner Class
+Scanner scanner = new Scanner(System.in);
+
+String name = scanner.nextLine();
+
+//To close the scanner after usesage
+scanner.close();
+```
+- To check if the input received is Integer: `scanner.hasNextInt();`
+
+```Java
+	    Scanner scanner = new Scanner(System.in);
+	    int sum = 0, count = 1;
+
+	    while (count <= 3 ){
+            System.out.println("Enter number #" + count);
+	        boolean isInt = scanner.hasNextInt(); //To Check if User input Integer or not
+	        if (isInt){
+	            sum+=scanner.nextInt();
+	            count++;
+            } else {
+	            System.out.println("Invalid No.");
+            }
+            scanner.nextLine(); //Handle End of Line (Key Line)
+
+        }
+        scanner.close();
+        System.out.println("Total Sum = " + sum);
+```
+
+
 ## Method Overloading
 - Improve code readability & re-usability
 - Overloaded methods provide flexibility to call similar method with different data types
