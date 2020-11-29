@@ -84,7 +84,7 @@ byte myNewByteValue = (byte)(Byte.MIN_VALUE/2);
 
 # Method
 ## User Input
-```
+```Java
 import java.util.Scanner;
 //Create an instance of Scanner Class
 Scanner scanner = new Scanner(System.in);
@@ -97,10 +97,10 @@ scanner.close();
 - To check if the input received is Integer: `scanner.hasNextInt();`
 
 ```Java
-	    Scanner scanner = new Scanner(System.in);
-	    int sum = 0, count = 1;
+	Scanner scanner = new Scanner(System.in);
+	int sum = 0, count = 1;
 
-	    while (count <= 3 ){
+	while (count <= 3 ){
             System.out.println("Enter number #" + count);
 	        boolean isInt = scanner.hasNextInt(); //To Check if User input Integer or not
 	        if (isInt){
