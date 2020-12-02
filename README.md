@@ -10,7 +10,6 @@
   - [Method Overloading](#method-overloading)
 - [Class](#class)
   - [Constructor](#constructor)
-
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
 - [Bitwise Operations](#bitwise-operations)
