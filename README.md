@@ -10,6 +10,7 @@
   - [Method Overloading](#method-overloading)
 - [Class](#class)
   - [Constructor](#constructor)
+  - [Inheritance](#inheritance)
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
 - [Bitwise Operations](#bitwise-operations)
@@ -156,10 +157,70 @@ public class Account {
     }
 }
 
-
 ```
+## Inheritance
 
+### Base Class 
+```Java
+public class Animal {
 
+    private String name;
+    private int brain;
+    private int body;
+    private int size;
+    private int weight;
+
+    public Animal(String name, int brain, int body, int size, int weight) {
+        this.name = name;
+        this.brain = brain;
+        this.body = body;
+        this.size = size;
+        this.weight = weight;
+    }
+
+    public void eat() {
+        System.out.println("Animal.eat() called");
+    }
+
+    public void move() {
+
+    }
+}
+```
+### Inheritted Class
+- Create Extra "Unique States" for Inheritted Class
+- Create Constructor with `super` keyword
+- Override the Method of Parent 's class
+
+```Java
+public class Dog extends Animal {
+    //Extra "Unique States" for Dog
+    private int eyes;
+    private int legs;
+    private int tail;
+    private int teeth;
+    private String coat;
+
+    public Dog(String name, int size, int weight, int eyes, int legs, int tail, int teeth, String coat) {
+        // Inherite from Super Class
+	super(name, 1, 1, size, weight);
+	// Initialized Extra "Unique States" for Dog
+        this.eyes = eyes;
+        this.legs = legs;
+        this.tail = tail;
+        this.teeth = teeth;
+        this.coat = coat;
+    }
+    //Override the Method of Parent 's class
+    @Override
+    public void eat() {
+        System.out.println("Dog.eat() called");
+        chew();
+        super.eat();
+    }
+    
+}
+```
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
 ## Scope of Variables
