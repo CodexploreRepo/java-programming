@@ -187,10 +187,11 @@ public class Animal {
     }
 }
 ```
-### Inheritted Class
-- Create Extra "Unique States" for Inheritted Class
+### Inherited Class
+- Create Inherited Class bt using `extends` keyword
+- Create Extra "Unique States" for Inherited Class
 - Create Constructor with `super` keyword
-- Override the Method of Parent 's class
+- Override the Method of Parent 's class with ` @Override`
 
 ```Java
 public class Dog extends Animal {
