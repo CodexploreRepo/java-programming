@@ -8,6 +8,9 @@
 - [Method](#method)
   - [User Input](#user-input)
   - [Method Overloading](#method-overloading)
+- [Class](#class)
+  - [Constructor](#constructor)
+
 - [Scope of Variables](#scope-of-variables)
 - [Access Modifiers and Visibility](#access-modifiers-and-visibility)
 - [Bitwise Operations](#bitwise-operations)
@@ -121,6 +124,43 @@ scanner.close();
 - Improve code readability & re-usability
 - Overloaded methods provide flexibility to call similar method with different data types
 ![Screenshot 2020-11-29 at 11 13 01 AM](https://user-images.githubusercontent.com/64508435/100530992-da2c7680-3233-11eb-99e5-9288eb73b140.png)
+
+<sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
+
+# Class
+## Constructor
+
+```Java
+public class Account {
+    private String number;
+    private double balance;
+    private String customerName;
+    private String customerEmailAddress;
+    private String customerPhoneNumber;
+    //Constructor #1 
+    public Account() {
+    	//To call  constructor #3
+        this("1234", 2.5, "Default name", "Default Address", "Default Phone");
+        System.out.println("Empty constructor called");
+    }
+     //Constructor #2
+    public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this("9999", 100.55, customerName, customerEmailAddress, customerPhoneNumber);
+    }
+     //Constructor #3
+    public Account(String number, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber){
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmailAddress = customerEmailAddress;
+        this.customerPhoneNumber = customerPhoneNumber;
+    }
+}
+
+
+```
+
+
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
 ## Scope of Variables
