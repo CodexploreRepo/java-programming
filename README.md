@@ -9,6 +9,7 @@
   - [User Input](#user-input)
   - [Method Overloading](#method-overloading)
   - [Method Overriding](#method-overriding)
+  - [Static methods vs Instance methods](#static-methods-vs-instance-methods)
 - [Class](#class)
   - [Constructor](#constructor)
   - [Inheritance](#inheritance)
@@ -128,6 +129,17 @@ scanner.close();
 
 ## Method Overriding
 <img width="845" alt="Screenshot 2020-12-04 at 10 23 23 PM" src="https://user-images.githubusercontent.com/64508435/101174922-77960900-367f-11eb-9d71-7c2587934063.png">
+
+
+## Static methods vs Instance methods
+### Static Methods:
+- Static methods are the methods in Java that can be **called without creating an object of class**
+- Static methods can **NOT be overridden**. But can be overloaded since they are resolved using **static binding** by compiler at compile time.
+- **Memory Allocation:** 
+   - stored in Permanent Generation space of **heap** (as they are associated to the class) in which they reside not to the objects of that class. 
+   - their local variables and the passed argument(s) to them are stored in the **stack**. 
+ 
+
 
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
