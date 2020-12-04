@@ -147,7 +147,7 @@ scanner.close();
    - stored in Permanent Generation space of **heap**, but 
    - **parameters (arguments passed to them) and their local variables** and the value to be returned are allocated in **stack**.
 
-### How to decide if the method is `static` or `instance`
+#### How to decide if the method is `static` or `instance` ?
 <img width="862" alt="Screenshot 2020-12-04 at 11 05 14 PM" src="https://user-images.githubusercontent.com/64508435/101179448-2f79e500-3685-11eb-99c0-f85c16c8234a.png">
 
 
