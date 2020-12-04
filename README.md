@@ -8,6 +8,7 @@
 - [Method](#method)
   - [User Input](#user-input)
   - [Method Overloading](#method-overloading)
+  - [Method Overriding](#method-overriding)
 - [Class](#class)
   - [Constructor](#constructor)
   - [Inheritance](#inheritance)
@@ -124,6 +125,10 @@ scanner.close();
 - Improve code readability & re-usability
 - Overloaded methods provide flexibility to call similar method with different data types
 ![Screenshot 2020-11-29 at 11 13 01 AM](https://user-images.githubusercontent.com/64508435/100530992-da2c7680-3233-11eb-99e5-9288eb73b140.png)
+
+## Method Overriding
+<img width="845" alt="Screenshot 2020-12-04 at 10 23 23 PM" src="https://user-images.githubusercontent.com/64508435/101174922-77960900-367f-11eb-9d71-7c2587934063.png">
+
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
 
