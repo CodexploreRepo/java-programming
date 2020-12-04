@@ -132,6 +132,7 @@ scanner.close();
 
 
 ## Static methods vs Instance methods
+
 ### Static Methods:
 - Static methods are the methods in Java that can be **called without creating an object of class**
 - Static methods can **NOT be overridden**. But can be overloaded since they are resolved using **static binding** by compiler at compile time.
@@ -139,7 +140,15 @@ scanner.close();
    - stored in Permanent Generation space of **heap** (as they are associated to the class) in which they reside not to the objects of that class. 
    - their local variables and the passed argument(s) to them are stored in the **stack**. 
  
+### Instance Methods:
+- Instance method are methods which **require an object of its class to be created before it can be called.** 
+- They **can be overridden** since they are resolved using dynamic binding at run time.
+- **Memory Allocation:** 
+   - stored in Permanent Generation space of **heap**, but 
+   - **parameters (arguments passed to them) and their local variables** and the value to be returned are allocated in **stack**.
 
+### How to decide if the method is `static` or `instance`
+<img width="862" alt="Screenshot 2020-12-04 at 11 05 14 PM" src="https://user-images.githubusercontent.com/64508435/101179448-2f79e500-3685-11eb-99c0-f85c16c8234a.png">
 
 
 <sup><sub>[▲ TOP](#table-of-contents)</sub></sup>
